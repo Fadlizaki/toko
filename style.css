@@ -1,0 +1,193 @@
+/* ===== GOOGLE FONTS ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ===== VARIABEL CSS ======= */
+:root {
+    --header-heigth: 3rem;
+
+
+
+    /* ===== COLORS ======= */
+    --first-color: #2e4471;
+    --first-color-alt: #1d335f;
+    --title-color: #393939;
+    --text-color: #707070;
+    --text-color-light: #a6a6a6;
+    --body-color: #fbfefd;
+    --container-color: #fff;
+
+    /* ===== FONTS AND TYPOGRAPHY ======= */
+    --body-font: 'poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /* ===== FONT WEIGHT ======= */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* ===== MARGENES ======= */
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    /* ===== Z INDEX ======= */
+    --z-tolltip: 10;
+    --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --biggest-font-size: 4rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/* ===== Base ======= */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== variabel dark theme ======= */
+
+
+/* ===== button dark/ligth ======= */
+
+body {
+    margin: var(--header-heigth) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===== CLASS CSS ======= */
+.section {
+    padding: 4rem 0 2 rem;
+}
+
+.section-title,
+.section-subtittle {
+    text-align: center;
+}
+
+.section-title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-3);
+}
+
+.section-subtittle {
+    display: block;
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+/* ===== LAYOUT  ======= */
+.bd-container {
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+
+.bd-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.l-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+}
+
+/* ===== NAV ======= */
+
+
+/* show menu */
+
+
+/* activity menu */
+
+
+/* change background header */
+
+
+/* scroll top */
+
+
+/* show sroll top */
+
+
+/* ===== HOME ======= */
+
+
+/* ===== BUTTONS ======= */
+
+
+/* ===== ABOUT  ======= */
+
+
+/* ===== DETAIL ======= */
+
+
+
+/* ===== PRODUCT ======= */
+
+
+/* ===== CONTACT ======= */
+
+
+/* ===== FOOTER  ======= */
+
+
+/* ===== MEDIA QUERIES  ======= */
+
+
+/* FOR TALL SCRREN ON MOBILE Y DESKTOP  */
